@@ -39,19 +39,19 @@
         <repository>
             <id>Try</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/latest-spring3/</url>
+            <url>http://localhost:8081/repository/latest_spring3/</url>
         </repository>
 		
 		<snapshotRepository>
             <id>Try</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/latest-spring3/</url>
+            <url>http://localhost:8081/repository/latest_spring3/</url>
         </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
 	  
-	  <finalName>Trying-Spring3</finalName>
+	  <finalName>Trying_Spring3</finalName>
 	    <pluginManagement>
 			<plugins>
 				<plugin>
